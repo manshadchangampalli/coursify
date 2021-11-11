@@ -1,4 +1,6 @@
 import Header from '../../Components/Header/Header'
+import Images from '../../Components/Images/Images'
+import Tittle from '../../Components/Tittle/Tittle'
 import './Home.scss'
 
 const Home = () =>{
@@ -8,11 +10,9 @@ const Home = () =>{
                 <Header/>
             </nav>
             <section className="main-section">
-                <div className="tittle">
-                    <h1>Build your <br /> Next <span>Product</span> <br /> with Deski.</h1>
-                </div>
+                <Tittle/>
                 <aside className="images">
-
+                    <Images/>
                 </aside>
             </section>
         </section>

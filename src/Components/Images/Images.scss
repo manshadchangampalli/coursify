@@ -1,0 +1,101 @@
+.images-section{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    .background-circle{
+        height: 600px;
+        left: 8%;
+        position: absolute;
+        top: 20%;
+        animation: rotating 10s linear infinite;
+    }
+    .background-circle-1{
+        position: absolute;
+        top: 23%;
+        left: 25%;
+        animation: rotating 3s linear infinite;
+    }
+    .background-circle-2{
+        position: absolute;
+        width: 100px;
+        bottom: 10%;
+        left: 50%;
+    }
+    .background-circle-3{
+        position: absolute;
+        top: 23%;
+        right: 18%;
+        animation: rotating 3s linear infinite;
+    }
+    .background-circle-4{
+        position: absolute;
+        bottom: 4%;
+        left: 40%;
+        animation: rotating 3s linear infinite;
+    }
+    .dots{
+        top: 13%;
+        left: 50%;
+        position: absolute;
+    }
+    .card-1{
+        top: 55%;
+        left: 48%;
+        height: 380px;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        animation: card1 10s linear infinite;
+    }
+    .card-2{
+        top: 55%;
+        transform: translateY(-50%);
+        height: 380px;
+        right: 0;
+        position: absolute;
+        animation: card2 10s linear infinite;
+    }
+    .arrow{
+        bottom: 5%;
+        left: 22%;
+        position: absolute;
+    }
+
+}
+
+@keyframes rotating {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+@keyframes card1 {
+    0%{
+        transform: translate(-50%,-50%);
+    }
+    30%{
+        transform: translate(-50%,-55%);
+    }
+    70%{
+        transform: translate(-50%,-45%);
+    }
+    95%{
+        transform: translate(-50%,-50%);
+    }
+}
+@keyframes card2 {
+    0%{
+        transform: translateY(-50%);
+    }
+    30%{
+        transform: translateY(-45%);
+    }
+    70%{
+        transform: translateY(-55%);
+    }
+    95%{
+        transform: translateY(-50%);
+    }
+}
