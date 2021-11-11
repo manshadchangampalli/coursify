@@ -1,6 +1,7 @@
 // ----------------fonts----------------------------
 
 $font-mukta : 'Mukta', sans-serif;
+$font-recoleta:'Recoleta',sans-serif;
 
 // -----------------------------
 // ---------------colors-----------------------------
@@ -10,3 +11,9 @@ $lightwhite:#fff9;
 $pink : #ff275b;
 $para-color:#afafaf;
 // -----------------------------
+
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('../Fonts/Recoleta-Regular.ttf');
+}

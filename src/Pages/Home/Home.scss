@@ -1,3 +1,5 @@
+@import '../../Assets/Style\ Sheet/_variables.scss';
+
 .Home{
     width: 100vw;
     height: 100vh;
@@ -9,14 +11,25 @@
         height: 100px;
     }
     .main-section{
+        padding: 0 2rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         .tittle{
-            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             h1{
                 font-size: 100px;
                 line-height: 115%;
-                color: #fff;
+                color: $white;
+                font-weight: 400;
+                font-family: $font-recoleta;
+                span{
+                    color: $pink;
+                    text-decoration: underline;
+                    text-decoration-thickness:5px ;
+                    font-weight: 200;
+                }
             }
         }
         .images{

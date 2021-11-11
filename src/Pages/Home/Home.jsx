@@ -9,7 +9,7 @@ const Home = () =>{
             </nav>
             <section className="main-section">
                 <div className="tittle">
-                    <h1>Build your Next Product with Deski.</h1>
+                    <h1>Build your <br /> Next <span>Product</span> <br /> with Deski.</h1>
                 </div>
                 <aside className="images">
 
