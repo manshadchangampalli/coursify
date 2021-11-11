@@ -12,15 +12,17 @@ import './Images.scss'
 function Images() {
     return (
         <div className="images-section">
-            <img className="background-circle" src={BackgroundCircle} alt="" />
-            <img className="background-circle-1" src={BackgroundCircle1} alt="" />
-            <img className="background-circle-2" src={BackgroundCircle2} alt="" />
-            <img className="background-circle-3" src={BackgroundCircle3} alt="" />
-            <img className="background-circle-4" src={BackgroundCircle4} alt="" />
-            <img className="dots" src={Dots} alt="" />            
-            <img className="card-1" src={Card1} alt="" />
-            <img className="card-2" src={Card2} alt="" />
-            <img className="arrow" src={arrow} alt="" />
+            <div className="illustration-section">
+                <img className="background-circle" src={BackgroundCircle} alt="" />
+                <img className="background-circle-1" src={BackgroundCircle1} alt="" />
+                <img className="background-circle-2" src={BackgroundCircle2} alt="" />
+                <img className="background-circle-3" src={BackgroundCircle3} alt="" />
+                <img className="background-circle-4" src={BackgroundCircle4} alt="" />
+                <img className="dots" src={Dots} alt="" />            
+                <img className="card-1" src={Card1} alt="" />
+                <img className="card-2" src={Card2} alt="" />
+                <img className="arrow" src={arrow} alt="" />
+            </div>
         </div>
     )
 }

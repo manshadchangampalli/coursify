@@ -3,20 +3,32 @@
 .Home{
     width: 100vw;
     height: 125vh;
+    position: relative;
     background: #0F1123;
-    display: grid;
-    grid-template-rows: 100px 1fr;
+    overflow: hidden;
+
     .navbar{
         width: 100vw;
+        position: absolute;
         height: 100px;
+        top: 0;
+        left: 0;
     }
     .main-section{
+        padding-top: 100px;
         padding: 0 2rem;
         display: grid;
+        height: 100%;
         grid-template-columns: repeat(2,1fr);
+        .tittle{
+            height: 100%;
+            margin-top: 200px;
+        }
         
         .images{
             margin-right: -2rem;
+            margin-top: 100px;
+            height: 100%;
         }
     }
 } 
