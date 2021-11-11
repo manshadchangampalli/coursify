@@ -1,0 +1,26 @@
+.Home{
+    width: 100vw;
+    height: 100vh;
+    background: #0F1123;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    .navbar{
+        width: 100vw;
+        height: 100px;
+    }
+    .main-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        .tittle{
+            background: white;
+            h1{
+                font-size: 100px;
+                line-height: 115%;
+                color: #fff;
+            }
+        }
+        .images{
+
+        }
+    }
+} 

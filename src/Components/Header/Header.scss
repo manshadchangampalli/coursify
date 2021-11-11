@@ -1,0 +1,64 @@
+@import '../../Assets/Style\ Sheet/_variables.scss';
+
+.header{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 4rem;
+    padding: 0 1rem;
+
+    font-family: $font-mukta;
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .logo-icon{
+            background: $white;
+            width: 30px;
+            display: grid;
+            place-items: center;
+            height: 30px;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+        .logo-tittle{
+            h1{
+                font-weight: 600;
+                font-size: 30px;
+                color: $white;
+
+            }
+        }
+    }
+    .nav-items{
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(6,1fr ) 2fr;
+        .nav-item {
+            list-style: none;
+            font-size: 20px;
+            color: $lightwhite;
+            font-weight: 400;
+            height: 100%;
+            display: grid;
+            place-items: center;
+
+        }
+        .nav-home{
+            color: $white;
+            border-bottom:2px solid $white ;
+        }
+        .request-button{
+            width: 70%;
+            height: 60px;
+            border: 2px solid $white;
+            color: $white;
+            display: grid;
+            place-items: center;
+            border-radius: 10px;
+        }
+    }
+}
