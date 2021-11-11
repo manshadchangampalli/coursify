@@ -1,0 +1,33 @@
+@media only screen and (max-width:1200px){
+
+    .tittle .tittle-h1{
+        font-size: 70px;
+    }
+    .images-section .illustration-section{
+        width: 500px;
+        height: 500px;
+    }
+    .images-section .illustration-section .card-1,
+    .images-section .illustration-section .card-2
+    {
+        height: 63%;
+    }
+    .tittle .sub-tittle-p{
+        font-size: 20px;
+    }
+    .images-section .illustration-section .dots {
+        height: 15%;
+    }
+    .header .nav-items .nav-item  {
+        font-size: 18px;
+    }
+    .header .nav-items .request-button {
+        font-size: 15px;
+    }
+    .tittle .buttons .applestore .download-texts .app-store-text{
+        font-size: 26px;
+    }
+    .tittle .buttons .applestore .download-text {
+        font-size: 14px;
+    }
+}

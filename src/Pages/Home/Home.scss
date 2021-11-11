@@ -2,16 +2,18 @@
 
 .Home{
     width: 100vw;
-    height: 125vh;
+    height: 150vh;
     position: relative;
     background: #0F1123;
     overflow: hidden;
+    padding-bottom: 50px;
 
     .navbar{
         width: 100vw;
-        position: absolute;
+        position: fixed;
         height: 100px;
         top: 0;
+        z-index: 999;
         left: 0;
     }
     .main-section{
@@ -28,6 +30,7 @@
         .images{
             margin-right: -2rem;
             margin-top: 100px;
+            z-index: 4;
             height: 100%;
         }
     }
