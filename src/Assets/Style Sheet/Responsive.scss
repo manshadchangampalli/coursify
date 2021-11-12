@@ -142,4 +142,22 @@
     .tittle .sub-tittle-p {
         width: 80%;
     }
+    .tittle .buttons{
+        grid-template-columns: 1fr;
+        width: 200px;
+        grid-template-rows: 1fr 1fr;
+        .applestore{
+            height: 60px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            font-size: 15px;
+            grid-row-start:2 ;
+            grid-row-end: 3;
+        }
+        .seeintro{
+            grid-row-start: 1;
+            grid-row-end: 2;
+            justify-self: start;
+        }
+    }
 }
