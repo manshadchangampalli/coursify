@@ -30,4 +30,116 @@
     .tittle .buttons .applestore .download-text {
         font-size: 14px;
     }
+
+}
+@media only screen and (max-width:991px){
+    .Home{
+        height: 120vh;
+    }
+    .Home .main-section{
+        padding: 0 3rem;
+    }
+    .header .nav-items .nav-item{
+        display: none;
+    }
+    .header{
+        grid-template-columns: 1fr 5fr auto;
+        grid-gap: 15px;
+    }
+    .header .nav-items{
+        grid-template-columns: 1fr;
+    }
+    .header .nav-items .request-button{
+        width: 180px;
+        justify-self: end;
+    }
+    .header .toggle-icon{
+        display: block;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background: #2a2a2a;
+        place-self: center;
+        border-radius: 50%;
+        .first.line{
+            width: 30px;
+            height: 2px;
+            position: absolute;
+            background: white;
+            top: 35%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .second.line{
+            width: 30px;
+            height: 2px;
+            position: absolute;
+            background: white;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .third.line{
+            width: 30px;
+            height: 2px;
+            position: absolute;
+            background: white;
+            top: 65%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .Home .main-section {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .Home .main-section .images {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .images-section .illustration-section {
+        width: 350px;
+        height: 350px;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .tittle .tittle-h1 br{
+        display: none;
+    }
+    .tittle .tittle-h1{
+        font-size: 45px;
+    }
+    .tittle .sub-tittle-p{
+        font-size: 20px;
+    }
+    .tittle .buttons{
+        width:420px;
+        height: 100px;
+    }
+    .shapes{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .header .nav-items .request-button h4{
+        display: none;
+    }
+    .header .nav-items .request-button{
+        width: 50px;
+        height: 50px;
+        img{
+            width: 80%;
+            display: block;
+            filter: invert(1);
+        }
+    }
+    .tittle .tittle-h1{
+        font-size: 35px;
+        width: 80%;
+    }
+    .tittle .sub-tittle-p {
+        width: 80%;
+    }
 }

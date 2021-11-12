@@ -1,7 +1,12 @@
 import React from 'react'
 import './Header.scss'
+import user from  '../../Assets/img/user.svg'
+import {useDispatch} from 'react-redux'
+import {ToggleClicked} from '../../Redux/Actions'
 
 function Header() {
+    const dispatch = useDispatch()
+
     return (
         
         <div className="header">{/*the all header section (navbar)*/}
@@ -22,10 +27,18 @@ function Header() {
                 <div className="nav-item nav-products">Product</div>
                 <div className="nav-item nav-feedback">Feedback</div>
                 <div className="nav-item nav-pricing">Pricing</div>
-                <div className="nav-item request-button">
+                <div className=" request-button">
                     <h4>Request A Demo</h4>
+                    <img src={user} alt="" />
                 </div>
             </div>
+
+            <div onClick={()=> dispatch(ToggleClicked())} className="toggle-icon">
+                <div className="first line"></div>
+                <div className="second line"></div>
+                <div className="third line"></div>
+            </div>
+            
         </div>
     )
 }
