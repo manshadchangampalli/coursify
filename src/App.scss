@@ -17,3 +17,18 @@
 body{
     overflow-x: hidden;
 }
+html{
+    scrollbar-color:rgb(62, 107, 255) rgb(255, 255, 255);
+    scrollbar-width:thin;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(39, 39, 255); 
+    border-radius: 5px;
+}
+
+
+  
