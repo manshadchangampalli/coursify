@@ -31,13 +31,13 @@
         grid-gap: 10px;
         .applestore{
             width: 250px;
-            height: 90px;
+            height: 70px;
             justify-self: start;
             background: linear-gradient(270.01deg,#f548a0 .01%,#f57c35);
             border-radius: 6px;
             display: grid;
             grid-gap: 15px;
-            grid-template-columns: 1fr 2fr;
+            grid-template-columns: .9fr 2fr;
                 .apple-icon{
                     justify-self: end;
                     display: grid;
@@ -51,7 +51,7 @@
                     justify-self: start;
                     // padding-right: 20px;
                     font-family: $font-mukta;
-                    grid-template-rows: 1fr 1fr;
+                    grid-template-rows: .8fr 1fr;
                     .download-text{
                         color: $white;
                         align-self: flex-end;
